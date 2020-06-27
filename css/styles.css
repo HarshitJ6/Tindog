@@ -1,0 +1,197 @@
+/* ----------------------------------------------------title-------------------------------------- */
+#title {
+  background-color: #ff4c68;
+  /* background: url("../images/title-back.jpg"); */
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom: 80px;
+}
+h3 {
+  margin-top: 20px;
+}
+.navbar a{
+  font-size: 1.5rem;
+}
+.image {
+  width: 65%;
+  position: relative;
+ bottom: 40px;
+ animation: 2s ease-in 1s 1 both running slidein;
+}
+@keyframes slidein {
+ 33%{transform: scale(1.1) rotateY(45deg);}
+67%{transform: scale(1) rotateY(-45deg);}
+100%{transform: scale(1) rotateY(0deg);}
+}
+.title-text {
+  height: auto;
+  color: whitesmoke;
+  padding-bottom: 50px;
+}
+.navbar {
+  padding-bottom: 40px;
+  padding-left: 0;
+}
+.nav-link {
+  font-size: 1.2rem;
+  margin-right: 10px;
+}
+.navbar-brand {
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  color: blanchedalmond;
+}
+.title-text {
+  height: auto;
+  color: whitesmoke;
+  padding-bottom: 50px;
+}
+
+.logo {
+  width: 75px;
+  padding-bottom: 10%;
+}
+.navbar-brand {
+  font-size: 3rem;
+}
+
+.dw-btn {
+  margin: 0 auto;
+}
+.dw-btn {
+  margin: 10% 5% 10% 0;
+}
+
+.box {
+  text-align: center;
+}
+.btn-box {
+  text-align: center;
+  margin-top: 75px;
+  margin-bottom: 0;
+}
+/* ------------------------------------features --------------------------------*/
+#features {
+  background: white;
+  padding: 5% 12%;
+  text-align: center;
+  position: relative;
+  z-index: 2;
+  bottom:100px;
+  margin-bottom: 0;
+}
+.ftr {
+  font-size: 75px;
+  color: #ff4c68;
+}
+
+.ftr:hover {
+  color: rgb(230, 63, 13);
+}
+p {
+  color: #8f8f8f;
+}
+/* -------------------------------testimonials -------------------------*/
+#testimonials {
+  padding: 20px 0;
+  background-color: #ff4c68;
+  text-align: center;
+  color: white;
+  position:relative;
+  bottom:100px
+}
+.testimonial-box {
+  margin: 0 12% 5% 12%;
+}
+.testimonial-text {
+  padding-top: 30px;
+  font-size: 2.3rem;
+  font-family: "ubuntu", sans-serif;
+  line-height: 1.5;
+  color: white;
+  text-align: center;
+}
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 25px;
+}
+/* -------------------------------press ------------------------ */
+#press {
+  background-color: #ff4c68;
+  position:relative;
+  bottom:100px
+}
+.press-box {
+  margin: 0 auto 0 auto;
+  text-align: center;
+  padding-bottom: 40px;
+}
+.press-logo {
+  width: 15%;
+  margin-left: 30px;
+}
+/* ------------------------Pricing Table------------------- */
+#pricing {
+  text-align: center;
+    position:relative;
+  bottom:100px
+}
+.card-box {
+  padding: 0 auto;
+  margin: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  padding: 0;
+  margin: 20px 20px 0;
+  border-radius: 5%;
+  font-family: "montserrat";
+}
+.pricing-head,
+.pricing-subhead {
+  font-family: "montserrat-thin";
+}
+.pricing-head {
+  margin-top: 20px;
+  font-size: 3rem;
+}
+.card-header {
+  font-family: "montserrat-regular";
+}
+/* ------------------------Call to action-------------------------- */
+#cta{
+  background: #ff4c68; 
+  text-align: center;
+  padding: 2% 12% 3% 12%;
+  font-family: "monterrat-bold";
+}
+.cta-head{
+  font-size: 3rem;
+  color: white;
+  margin-top: 0;
+  margin-bottom: 20px;
+  line-height: 1.5;
+}
+.cta-btn{
+margin-right: 25px;
+border: 1px solid white;
+box-shadow: 2px 2px 2px 2px black;
+transition: 200ms all linear;
+}
+.cta-btn:hover{
+  border: 1px solid white;
+  transform: scale(1.1);
+}
+
+/* --------------------------footer ------------------------------------------- */
+#footer{
+  text-align: center;
+  margin: 20px;
+}
+.footer-logo{
+  margin:10px;
+  font-size: 1.5rem;
+}
